@@ -10,10 +10,10 @@
 		611B1736279870C40017043D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611B1735279870C40017043D /* AppDelegate.swift */; };
 		611B1738279870C40017043D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611B1737279870C40017043D /* SceneDelegate.swift */; };
 		611B173A279870C40017043D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611B1739279870C40017043D /* ViewController.swift */; };
-		611B173D279870C40017043D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611B173B279870C40017043D /* Main.storyboard */; };
 		611B173F279870C70017043D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611B173E279870C70017043D /* Assets.xcassets */; };
 		611B1742279870C70017043D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611B1740279870C70017043D /* LaunchScreen.storyboard */; };
 		611B174A279872030017043D /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 611B1749279872030017043D /* alarm_sound.mp3 */; };
+		617B323B279C7F2D004352B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 617B323A279C7F2D004352B7 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		611B1735279870C40017043D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		611B1737279870C40017043D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		611B1739279870C40017043D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		611B173C279870C40017043D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		611B173E279870C70017043D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		611B1741279870C70017043D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		611B1743279870C70017043D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611B1749279872030017043D /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
+		617B323A279C7F2D004352B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 				611B1735279870C40017043D /* AppDelegate.swift */,
 				611B1737279870C40017043D /* SceneDelegate.swift */,
 				611B1739279870C40017043D /* ViewController.swift */,
-				611B173B279870C40017043D /* Main.storyboard */,
 				611B173E279870C70017043D /* Assets.xcassets */,
+				617B323A279C7F2D004352B7 /* Main.storyboard */,
 				611B1740279870C70017043D /* LaunchScreen.storyboard */,
 				611B1743279870C70017043D /* Info.plist */,
 				611B1749279872030017043D /* alarm_sound.mp3 */,
@@ -131,7 +131,7 @@
 				611B1742279870C70017043D /* LaunchScreen.storyboard in Resources */,
 				611B173F279870C70017043D /* Assets.xcassets in Resources */,
 				611B174A279872030017043D /* alarm_sound.mp3 in Resources */,
-				611B173D279870C40017043D /* Main.storyboard in Resources */,
+				617B323B279C7F2D004352B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		611B173B279870C40017043D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				611B173C279870C40017043D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		611B1740279870C70017043D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
